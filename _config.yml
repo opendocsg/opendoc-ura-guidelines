@@ -1,5 +1,5 @@
 title: URA Guidelines
-remote_theme: opendocsg/opendoc-theme@v2
+remote_theme: opendocsg/opendoc-theme@master
 timezone: Asia/Singapore
 repository: opendocsg/opendoc-ura-guidelines
 plugins:
@@ -18,3 +18,15 @@ styling_options:
   logo_path: /assets/URALogo.png 
   opendoc_logo_path: /assets/images/logo-full.png
   feedback_url: https://form.gov.sg/5cee3d46138e3200109244df
+
+hide_toolbar:
+  sidebar: false
+  pdf: false
+  github: true
+
+folders:
+  - name: '/'
+    title: 'URA Guidelines'
+    subtitle: ''
+    order:
+      - 'flats_condominiums.md'
